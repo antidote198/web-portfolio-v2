@@ -10,7 +10,7 @@ const About = () => {
                     &#123;
                 </h1>
                 <div class="flex mx-20 row-about-me">
-                    <div class="flex-none mt-8 rounded bg-secondary hover:bg-transparent transition duration-300 ease-in w-[150px] h-[150px] my-photo-container">
+                    <div class="flex-none mt-8 rounded bg-secondary hover:bg-transparent transition duration-300 ease-in w-[150px] h-[150px] border-r-4 border-b-4 border-secondary hover:border-none">
                         <img
                             class="rounded opacity-[0.8] profile-photo"
                             src={myPhoto}
