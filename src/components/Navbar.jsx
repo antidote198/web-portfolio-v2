@@ -1,8 +1,34 @@
 import React from 'react';
 
 const Navbar = () => {
+    const body = document.body;
+    let lastScroll = 0;
+
+    window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+        if (currentScroll <= 0) {
+            body.classList.remove('scroll-up');
+            return;
+        }
+
+        if (
+            currentScroll > lastScroll &&
+            !body.classList.contains('scroll-down')
+        ) {
+            body.classList.remove('scroll-up');
+            body.classList.add('scroll-down');
+        } else if (
+            currentScroll < lastScroll &&
+            body.classList.contains('scroll-down')
+        ) {
+            body.classList.remove('scroll-down');
+            body.classList.add('scroll-up');
+        }
+        lastScroll = currentScroll;
+    });
+
     return (
-        <nav className="p-4 bg-primary shadow-xl sticky top-0 z-10">
+        <nav className="p-4 bg-primary shadow-xl sticky top-0 z-10 transition duration-300 ease-in">
             <div>
                 <span className="xl:text-[2rem] sm:text-[1rem] ml-5 text-secondary font-plus-jakarta-sans cursor-pointer">
                     &lt;JS&gt;
