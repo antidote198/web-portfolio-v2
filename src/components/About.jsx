@@ -2,7 +2,7 @@ import { myPhoto } from '../assets';
 
 const About = () => {
     return (
-        <article className="pt-56 px-36" id="about">
+        <article className="pt-56 px-36 animate-fade-in" id="about">
             <div>
                 <h1 className="text-[32px] text-secondary font-montserrat about-me-title-1">
                     #
@@ -14,7 +14,7 @@ const About = () => {
                 <div className="flex mx-20 row-about-me">
                     <div className="flex-none mt-8 rounded bg-secondary hover:bg-transparent transition duration-300 ease-in w-[150px] h-[150px] border-r-4 border-b-4 border-secondary hover:border-none">
                         <img
-                            className="rounded opacity-[0.8] profile-photo"
+                            className="rounded opacity-[0.8] hover:animate-shadow-drop-br"
                             src={myPhoto}
                             alt="a photo of my face"
                         />

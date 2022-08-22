@@ -35,7 +35,7 @@ const Hero = () => {
                 <div
                     className={`${
                         toggle ? 'hidden' : 'visible'
-                    } flex justify-center cursor-pointer`}
+                    } flex justify-center cursor-pointer animate-slide-in-blurred-top`}
                     onClick={() => setToggle((prev) => !prev)}
                     id="scrollDownButton"
                 >
