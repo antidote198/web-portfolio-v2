@@ -19,27 +19,29 @@ const Hero = () => {
     return (
         <div>
             <section>
-                <div class="landing-animation">
-                    <h1 class="text-[50px] first-text-greeting">
+                <div className="landing-animation">
+                    <h1 className="text-[50px] first-text-greeting">
                         Hi there! :)
                     </h1>
-                    <h1 class="text-[35px] second-text-greeting">
+                    <h1 className="text-[35px] second-text-greeting">
                         I'm James, nice to meet you!
                     </h1>
-                    <p class="text-[25px] subtitle">Welcome to my portfolio.</p>
+                    <p className="text-[25px] subtitle">
+                        Welcome to my portfolio.
+                    </p>
                 </div>
             </section>
             <a href="#about">
                 <div
-                    class={`${
+                    className={`${
                         toggle ? 'hidden' : 'visible'
                     } flex justify-center cursor-pointer`}
                     onClick={() => setToggle((prev) => !prev)}
                     id="scrollDownButton"
                 >
-                    <div class="animate-bounce bg-white dark:bg-slate-800 p-2 w-10 h-10 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
+                    <div className="animate-bounce bg-white dark:bg-slate-800 p-2 w-10 h-10 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
                         <svg
-                            class="w-6 h-6 text-secondary"
+                            className="w-6 h-6 text-secondary"
                             fill="none"
                             stroke-linecap="round"
                             stroke-linejoin="round"

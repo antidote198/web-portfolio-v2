@@ -2,46 +2,46 @@ import { eCommerce, pos, emr } from '../assets';
 
 const Projects = () => {
     return (
-        <article class="pt-24 px-36" id="projects">
+        <article className="pt-24 px-36" id="projects">
             <div>
-                <h1 class="text-[32px] text-secondary font-montserrat projects-title-1">
+                <h1 className="text-[32px] text-secondary font-montserrat projects-title-1">
                     &lt;
-                    <span class="text-[32px] text-tertiary font-montserrat project-title-3">
+                    <span className="text-[32px] text-tertiary font-montserrat project-title-3">
                         projects
                     </span>
                     &gt;
                 </h1>
-                <div class="flex flex-wrap -m-4 mt-8">
-                    <div class="p-4 sm:w-1/2 lg:w-1/3">
-                        <div class="h-[520px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <div class="bg-secondary hover:bg-transparent transition duration-300 ease-in">
+                <div className="flex flex-wrap -m-4 mt-8">
+                    <div className="p-4 sm:w-1/2 lg:w-1/3">
+                        <div className="h-[520px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <div className="bg-secondary hover:bg-transparent transition duration-300 ease-in">
                                 <img
-                                    class="lg:h-72 md:h-48 w-full object-cover object-center opacity-[0.8]"
+                                    className="lg:h-72 md:h-48 w-full object-cover object-center opacity-[0.8]"
                                     src={eCommerce}
                                     alt="blog"
                                 />
                             </div>
-                            <div class="p-6 hover:bg-secondary text-tertiary hover:text-primary transition duration-300 ease-in">
-                                <h2 class="text-base font-medium mb-1">
+                            <div className="p-6 hover:bg-secondary text-tertiary hover:text-primary transition duration-300 ease-in">
+                                <h2 className="text-base font-medium mb-1">
                                     August 05, 2022
                                 </h2>
-                                <h1 class="text-2xl font-semibold mb-3">
+                                <h1 className="text-2xl font-semibold mb-3">
                                     E-Commerce API
                                 </h1>
-                                <p class="leading-relaxed mb-3">
+                                <p className="leading-relaxed mb-3">
                                     Fully functional E-Commerce API built using
                                     Express.js, Mongoose, Bcrypt, jsonwebtoken
                                     and nodemon.
                                 </p>
-                                <div class="flex items-center flex-wrap">
+                                <div className="flex items-center flex-wrap">
                                     <a
-                                        class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer"
+                                        className="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer"
                                         href="https://gitlab.com/batch-198-segundo/capstone2-segundo"
                                         target="_blank"
                                     >
                                         Read More
                                         <svg
-                                            class="w-4 h-4 ml-2"
+                                            className="w-4 h-4 ml-2"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
                                             stroke-width="2"
@@ -53,9 +53,9 @@ const Projects = () => {
                                             <path d="M12 5l7 7-7 7"></path>
                                         </svg>
                                     </a>
-                                    <span class="text-primary mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-primary">
+                                    <span className="text-primary mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-primary">
                                         <svg
-                                            class="w-4 h-4 mr-1"
+                                            className="w-4 h-4 mr-1"
                                             stroke="currentColor"
                                             stroke-width="2"
                                             fill="none"
@@ -72,9 +72,9 @@ const Projects = () => {
                                         </svg>
                                         10
                                     </span>
-                                    <span class="text-primary inline-flex items-center leading-none text-sm">
+                                    <span className="text-primary inline-flex items-center leading-none text-sm">
                                         <svg
-                                            class="w-4 h-4 mr-1"
+                                            className="w-4 h-4 mr-1"
                                             stroke="currentColor"
                                             stroke-width="2"
                                             fill="none"
@@ -90,33 +90,33 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="p-4 sm:w-1/2 lg:w-1/3">
-                        <div class="h-[520px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <div class="bg-secondary hover:bg-transparent transition duration-300 ease-in">
+                    <div className="p-4 sm:w-1/2 lg:w-1/3">
+                        <div className="h-[520px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <div className="bg-secondary hover:bg-transparent transition duration-300 ease-in">
                                 <img
-                                    class="lg:h-72 md:h-48 w-full object-cover object-center opacity-[0.8]"
+                                    className="lg:h-72 md:h-48 w-full object-cover object-center opacity-[0.8]"
                                     src={pos}
                                     alt="blog"
                                 />
                             </div>
-                            <div class="p-6 hover:bg-secondary text-tertiary hover:text-primary transition duration-300 ease-in">
-                                <h2 class="text-base font-medium mb-1">
+                            <div className="p-6 hover:bg-secondary text-tertiary hover:text-primary transition duration-300 ease-in">
+                                <h2 className="text-base font-medium mb-1">
                                     July 18, 2016
                                 </h2>
-                                <h1 class="text-2xl font-semibold mb-3">
+                                <h1 className="text-2xl font-semibold mb-3">
                                     Point Of Sale System
                                 </h1>
-                                <p class="leading-relaxed mb-3">
+                                <p className="leading-relaxed mb-3">
                                     Fully functional POS System built using C#
                                     Windows Form Application with PostgreSQL.
                                     <br />
                                     <br />
                                 </p>
-                                <div class="flex items-center flex-wrap">
-                                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer">
+                                <div className="flex items-center flex-wrap">
+                                    <a className="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer">
                                         Read More
                                         <svg
-                                            class="w-4 h-4 ml-2"
+                                            className="w-4 h-4 ml-2"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
                                             stroke-width="2"
@@ -128,9 +128,9 @@ const Projects = () => {
                                             <path d="M12 5l7 7-7 7"></path>
                                         </svg>
                                     </a>
-                                    <span class="text-primary mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-primary">
+                                    <span className="text-primary mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-primary">
                                         <svg
-                                            class="w-4 h-4 mr-1"
+                                            className="w-4 h-4 mr-1"
                                             stroke="currentColor"
                                             stroke-width="2"
                                             fill="none"
@@ -147,9 +147,9 @@ const Projects = () => {
                                         </svg>
                                         5
                                     </span>
-                                    <span class="text-primary inline-flex items-center leading-none text-sm">
+                                    <span className="text-primary inline-flex items-center leading-none text-sm">
                                         <svg
-                                            class="w-4 h-4 mr-1"
+                                            className="w-4 h-4 mr-1"
                                             stroke="currentColor"
                                             stroke-width="2"
                                             fill="none"
@@ -165,33 +165,33 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="p-4 sm:w-1/2 lg:w-1/3">
-                        <div class="h-[520px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <div class="bg-secondary hover:bg-transparent transition duration-300 ease-in">
+                    <div className="p-4 sm:w-1/2 lg:w-1/3">
+                        <div className="h-[520px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <div className="bg-secondary hover:bg-transparent transition duration-300 ease-in">
                                 <img
-                                    class="lg:h-72 md:h-48 w-full object-cover object-center opacity-[0.8]"
+                                    className="lg:h-72 md:h-48 w-full object-cover object-center opacity-[0.8]"
                                     src={emr}
                                     alt="blog"
                                 />
                             </div>
-                            <div class="p-6 hover:bg-secondary text-tertiary hover:text-primary transition duration-300 ease-in">
-                                <h2 class="text-base font-medium mb-1">
+                            <div className="p-6 hover:bg-secondary text-tertiary hover:text-primary transition duration-300 ease-in">
+                                <h2 className="text-base font-medium mb-1">
                                     August 24, 2018
                                 </h2>
-                                <h1 class="text-2xl font-semibold mb-3">
+                                <h1 className="text-2xl font-semibold mb-3">
                                     Electronic Medical Records
                                 </h1>
-                                <p class="leading-relaxed mb-3">
+                                <p className="leading-relaxed mb-3">
                                     Fully functional EMR System built using C#
                                     Windows Form Application with PostgreSQL.
                                     <br />
                                     <br />
                                 </p>
-                                <div class="flex items-center flex-wrap">
-                                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer">
+                                <div className="flex items-center flex-wrap">
+                                    <a className="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer">
                                         Read More
                                         <svg
-                                            class="w-4 h-4 ml-2"
+                                            className="w-4 h-4 ml-2"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
                                             stroke-width="2"
@@ -203,9 +203,9 @@ const Projects = () => {
                                             <path d="M12 5l7 7-7 7"></path>
                                         </svg>
                                     </a>
-                                    <span class="text-primary mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-primary">
+                                    <span className="text-primary mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-primary">
                                         <svg
-                                            class="w-4 h-4 mr-1"
+                                            className="w-4 h-4 mr-1"
                                             stroke="currentColor"
                                             stroke-width="2"
                                             fill="none"
@@ -222,9 +222,9 @@ const Projects = () => {
                                         </svg>
                                         3
                                     </span>
-                                    <span class="text-primary inline-flex items-center leading-none text-sm">
+                                    <span className="text-primary inline-flex items-center leading-none text-sm">
                                         <svg
-                                            class="w-4 h-4 mr-1"
+                                            className="w-4 h-4 mr-1"
                                             stroke="currentColor"
                                             stroke-width="2"
                                             fill="none"
@@ -242,9 +242,9 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <h1 class="text-[32px] text-secondary font-montserrat mt-8 projects-title-2">
+                <h1 className="text-[32px] text-secondary font-montserrat mt-8 projects-title-2">
                     &lt;/
-                    <span class="text-[32px] text-tertiary font-montserrat project-title-3">
+                    <span className="text-[32px] text-tertiary font-montserrat project-title-3">
                         projects
                     </span>
                     &gt;
