@@ -4,7 +4,7 @@ const Projects = () => {
     return (
         <article className="pt-24 px-36" id="projects">
             <div>
-                <h1 className="text-[32px] text-secondary font-montserrat projects-title-1">
+                <h1 className="text-[32px] text-secondary-500 font-montserrat projects-title-1">
                     &lt;
                     <span className="text-[32px] text-tertiary font-montserrat project-title-3">
                         projects
@@ -14,14 +14,14 @@ const Projects = () => {
                 <div className="flex flex-wrap -m-4 mt-8">
                     <div className="p-4 sm:w-1/2 lg:w-1/3">
                         <div className="h-[520px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <div className="bg-secondary hover:bg-transparent transition duration-300 ease-in">
+                            <div className="bg-secondary-500 hover:bg-transparent transition duration-300 ease-in">
                                 <img
                                     className="lg:h-72 md:h-48 w-full object-cover object-center opacity-[0.8]"
                                     src={eCommerce}
                                     alt="blog"
                                 />
                             </div>
-                            <div className="p-6 hover:bg-secondary text-tertiary hover:text-primary transition duration-300 ease-in">
+                            <div className="p-6 hover:bg-secondary-400 text-tertiary hover:text-primary transition duration-300 ease-in">
                                 <h2 className="text-base font-medium mb-1">
                                     August 05, 2022
                                 </h2>
@@ -92,14 +92,14 @@ const Projects = () => {
                     </div>
                     <div className="p-4 sm:w-1/2 lg:w-1/3">
                         <div className="h-[520px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <div className="bg-secondary hover:bg-transparent transition duration-300 ease-in">
+                            <div className="bg-secondary-500 hover:bg-transparent transition duration-300 ease-in">
                                 <img
                                     className="lg:h-72 md:h-48 w-full object-cover object-center opacity-[0.8]"
                                     src={pos}
                                     alt="blog"
                                 />
                             </div>
-                            <div className="p-6 hover:bg-secondary text-tertiary hover:text-primary transition duration-300 ease-in">
+                            <div className="p-6 hover:bg-secondary-400 text-tertiary hover:text-primary transition duration-300 ease-in">
                                 <h2 className="text-base font-medium mb-1">
                                     July 18, 2016
                                 </h2>
@@ -167,14 +167,14 @@ const Projects = () => {
                     </div>
                     <div className="p-4 sm:w-1/2 lg:w-1/3">
                         <div className="h-[520px] border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <div className="bg-secondary hover:bg-transparent transition duration-300 ease-in">
+                            <div className="bg-secondary-500 hover:bg-transparent transition duration-300 ease-in">
                                 <img
                                     className="lg:h-72 md:h-48 w-full object-cover object-center opacity-[0.8]"
                                     src={emr}
                                     alt="blog"
                                 />
                             </div>
-                            <div className="p-6 hover:bg-secondary text-tertiary hover:text-primary transition duration-300 ease-in">
+                            <div className="p-6 hover:bg-secondary-400 text-tertiary hover:text-primary transition duration-300 ease-in">
                                 <h2 className="text-base font-medium mb-1">
                                     August 24, 2018
                                 </h2>
@@ -242,7 +242,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <h1 className="text-[32px] text-secondary font-montserrat mt-8 projects-title-2">
+                <h1 className="text-[32px] text-secondary-500 font-montserrat mt-8 projects-title-2">
                     &lt;/
                     <span className="text-[32px] text-tertiary font-montserrat project-title-3">
                         projects

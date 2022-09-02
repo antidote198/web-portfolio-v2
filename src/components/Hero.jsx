@@ -41,7 +41,7 @@ const Hero = () => {
                 >
                     <div className="animate-bounce bg-white dark:bg-slate-800 p-2 w-10 h-10 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
                         <svg
-                            className="w-6 h-6 text-secondary"
+                            className="w-6 h-6 text-secondary-500"
                             fill="none"
                             stroke-linecap="round"
                             stroke-linejoin="round"
